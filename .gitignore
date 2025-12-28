@@ -1,0 +1,22 @@
+# Python 
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+build/
+dist/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data (Ignore the raw dataset to keep the repo small)
+data/
+Training/
+Testing/
+
+# Docker
+.dockerignore
