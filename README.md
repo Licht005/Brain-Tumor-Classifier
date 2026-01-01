@@ -208,3 +208,4 @@ imaging pipeline** with:
 -   Highly optimized deployment (1.9 GB Docker image)
 -   Clean, reproducible, and professional engineering
 
+## HOWEVER , it is to be noted that this is for Educational and ecperimental purposes only, not for professional or medical uses cases
