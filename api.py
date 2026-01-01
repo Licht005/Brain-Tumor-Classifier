@@ -108,7 +108,7 @@ def generate_gradcam(image: Image.Image):
         h1.remove()
         h2.remove()
 
-# ------------------ Endpoints ------------------
+# API Endpoints
 
 @app.get("/")
 def home():
@@ -142,3 +142,4 @@ async def predict_and_visualize(file: UploadFile = File(...)):
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
+# THE FASTAPI DOC view comes in handy for quick testing and prototyping api's
